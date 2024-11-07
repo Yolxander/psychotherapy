@@ -41,7 +41,7 @@ export function Hero() {
                 <Link 
                   key={item} 
                   href={`/${item.toLowerCase()}`} 
-                  className="text-[#4c637b] text-sm font-medium hover:text-[#8090a2] px-4"
+                  className="text-[#4c637b] text-[18px] font-medium hover:text-[#8090a2] px-3"
                 >
                   {item}
                 </Link>
@@ -78,7 +78,7 @@ export function Hero() {
               <Link 
                 key={item} 
                 href={`/${item.toLowerCase()}`} 
-                className="text-[#4c637b] text-xl font-medium hover:text-[#8090a2]"
+                className="text-[#4c637b] text-[20px] font-medium hover:text-[#8090a2]"
                 onClick={toggleMenu}
               >
                 {item}
