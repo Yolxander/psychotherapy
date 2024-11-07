@@ -95,17 +95,17 @@ export function Hero() {
       )}
 
       {/* Hero Content */}
-      <main className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center z-20 pt-24">
+      <main className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center z-20 md:pt-24 pt-20">
         <div className="max-w-[90rem] mx-auto space-y-6">
           <h1 className="text-white font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.2] tracking-tight max-w-[95%] mx-auto">
             Counselling and Psychotherapy Services
           </h1>
           <div className="w-32 h-px bg-white mx-auto opacity-70"></div>
           <div className="space-y-3">
-            <h3 className="text-white text-[22px] font-light">
+            <h3 className="text-white text-[22px] font-semibold">
               We are Here to Support you
             </h3>
-            <p className="text-white text-[20px] font-light tracking-wide max-w-4xl mx-auto">
+            <p className="text-white text-[20px] tracking-wide max-w-4xl mx-auto font-semibold ">
               We will work together in a way that ensures your comfort and satisfaction with therapy.
             </p>
           </div>
@@ -126,7 +126,7 @@ export function Hero() {
       />
 
       {/* Overlay for better text readability */}
-      <div className="fixed inset-0 bg-black opacity-30 z-10"></div>
+      <div className="fixed inset-0 bg-black opacity-40 z-10"></div>
     </div>
   )
 }
