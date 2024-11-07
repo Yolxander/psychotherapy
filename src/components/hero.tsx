@@ -41,7 +41,7 @@ export function Hero() {
                 <Link 
                   key={item} 
                   href={`/${item.toLowerCase()}`} 
-                  className="text-[#4c637b] text-[18px] font-medium hover:text-[#8090a2] px-3"
+                  className="text-[#4c637b] text-[16px] font-medium hover:text-[#8090a2] px-3 uppercase"
                 >
                   {item}
                 </Link>
@@ -50,7 +50,7 @@ export function Hero() {
             <Button 
               className="hidden md:block bg-[#4c637b] text-white hover:bg-[#8090a2] rounded-full px-8"
             >
-              BOOK TODAY
+              CONTACT
             </Button>
             <button
               className="md:hidden text-[#4c637b]"
@@ -78,7 +78,7 @@ export function Hero() {
               <Link 
                 key={item} 
                 href={`/${item.toLowerCase()}`} 
-                className="text-[#4c637b] text-[20px] font-medium hover:text-[#8090a2]"
+                className="text-[#4c637b] text-[20px] font-medium hover:text-[#8090a2] uppercase"
                 onClick={toggleMenu}
               >
                 {item}
@@ -88,7 +88,7 @@ export function Hero() {
               className="mt-4 bg-[#4c637b] text-white hover:bg-[#8090a2] rounded-full px-8 py-2"
               onClick={toggleMenu}
             >
-              BOOK TODAY
+              CONTACT
             </Button>
           </nav>
         </div>
@@ -103,7 +103,7 @@ export function Hero() {
           <div className="w-32 h-px bg-white mx-auto opacity-70"></div>
           <div className="space-y-3">
             <h3 className="text-white text-[22px] font-semibold">
-              We are Here to Support you
+              We are Here to Support you.
             </h3>
             <p className="text-white text-[20px] tracking-wide max-w-4xl mx-auto font-semibold ">
               We will work together in a way that ensures your comfort and satisfaction with therapy.
